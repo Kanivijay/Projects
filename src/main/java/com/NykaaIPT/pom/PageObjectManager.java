@@ -43,6 +43,7 @@ public class PageObjectManager extends BaseClass {
     		 Cart_page = new CartImp();
     	}
     	return Cart_page;
+    	
     } 
     public PaymentImp getPayment_page() {
     	if (Payment_page == null) {
